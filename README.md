@@ -8,7 +8,7 @@ It will generate a base WordPress Plugin project with Gulp tasks.
 
 Please read [Yeoman docs](http://yeoman.io) for Yeoman installation.  
 
-*THIS IS NOT WORKING YET* 
+*BELLOW INFORMATION IS NOT WORKING YET* 
 
 Run `generator-unit4-bespoke-wp-plugin` from `npm`:  
 `npm install -g generator-unit4-bespoke-wp-plugin`
