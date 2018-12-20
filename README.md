@@ -18,6 +18,8 @@ Run `generator-unit4-bespoke-wp-plugin` from `npm`:
 
 * languages/
 * lib/
+    * `Utils`
+        * `Scripts.php`
 	* `Activator.php`
 	* `Deactivator.php`
 	* `I18n.php`
