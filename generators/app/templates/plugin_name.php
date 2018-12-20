@@ -13,16 +13,16 @@
  * @package           <%= vendor_name %>
  *
  * @wordpress-plugin
- * Plugin Name:       <%= plugin_name %>
- * Plugin URI:        <%= plugin_url %>
- * Description:       <%= plugin_description %>
- * Version:           <%= version %>
- * Author:            log.OSCON, Lda.
- * Author URI:        http://log.pt/
- * License:           GPL-2.0+
- * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
- * Text Domain:       <%= text_domain %>
- * Domain Path:       /languages
+ * Plugin Name: <%= plugin_name %>
+ * Plugin URI : <%= plugin_url %>
+ * Description: <%= plugin_description %>
+ * Version    : <%= version %>
+ * Author     : Unit4 - Portal Bespoke Team
+ * Author URI : https: //unit4.com/
+ * License    : GPL-2.0+
+ * License URI: http : //www.gnu.org/licenses/gpl-2.0.txt
+ * Text Domain: <%= text_domain %>
+ * Domain Path: /languages
  */
 
 if ( file_exists( dirname( __FILE__ ) . '/vendor/autoload.php' ) ) {
@@ -51,7 +51,10 @@ if ( ! defined( 'WPINC' ) ) {
  *
  * @since    <%= version %>
  */
-\add_action( 'plugins_loaded', function () {
-	$plugin = new <%= namespace %>\Plugin( '<%= text_domain %>', '<%= version %>' );
-	$plugin->run();
-} );
+\add_action(
+	'plugins_loaded',
+	function () {
+		$plugin = new < %= namespace % > \Plugin( '<%= text_domain %>', '<%= version %>' );
+		$plugin->run();
+	}
+);

@@ -1,5 +1,5 @@
 # <%= plugin_name %> #
-Contributors: log.OSCON <engenharia@log.pt>
+Contributors: Unit4 <licinio.sousa.ext@unit4.com>
 Tags:
 Requires at least:  4.5.6
 Tested up to: 4.7

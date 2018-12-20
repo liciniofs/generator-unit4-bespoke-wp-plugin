@@ -2,17 +2,18 @@
 
 ## What it is ##
 
-It will generate a base WordPress Plugin project with PHPUnit, WP_Mocks and Gulp tasks.
+It will generate a base WordPress Plugin project with Gulp tasks.
 
 ## Instalation ##
 
 Please read [Yeoman docs](http://yeoman.io) for Yeoman installation.  
 
-Run `generator-log-wp-plugin` from `npm`:  
-`npm install -g generator-log-wp-plugin`
+*THIS IS NOT WORKING YET* 
+Run `generator-unit4-bespoke-wp-plugin` from `npm`:  
+`npm install -g generator-unit4-bespoke-wp-plugin`
 
 ## Bootstrap ##
-`yo log-wp-plugin` will generate a `package.json` and a `composer.php` with the specified dependencies, an `.editorconfig`, a `.gitignore`, a `phpunit.xml` and a `{plugin_name}.php`, and will create the following directories and files:
+`yo unit4-bespoke-wp-plugin` will generate a `package.json` and a `composer.php` with the specified dependencies, an `.editorconfig`, a `.gitignore`, a `phpunit.xml` and a `{plugin_name}.php`, and will create the following directories and files:
 
 * languages/
 * lib/
@@ -33,7 +34,7 @@ Run `generator-log-wp-plugin` from `npm`:
 ## Sub-Generators:
 Aditional sub-generators to generate/update files to enhance your plugin.
 ### Taxonomy
-`yo log-wp-plugin:taxonomy` will generate inside the plugin's `lib` folder the following files and directories:
+`yo unit4-bespoke-wp-plugin:taxonomy` will generate inside the plugin's `lib` folder the following files and directories:
 
 * lib/
     * `Taxonomy.php`
@@ -46,7 +47,7 @@ Aditional sub-generators to generate/update files to enhance your plugin.
 It will be displayed the necessary code-block to be added in the Plugin to the correct taxonomy registry.
 
 ### Custom Post Type
-`yo log-wp-plugin:cpt` will generate inside the plugin's `lib` folder the following files and directories:
+`yo unit4-bespoke-wp-plugin:cpt` will generate inside the plugin's `lib` folder the following files and directories:
 
 * lib/
     * `PostType.php`
@@ -59,7 +60,7 @@ It will be displayed the necessary code-block to be added in the Plugin to the c
 It will be displayed the necessary code-block to be added in the Plugin to the correct post type registry.
 
 ## Where can I report bugs? ##
-[Git issues](https://github.com/log-oscon/generator-log-wp-plugin/issues)
+[Git issues](https://github.com/liciniofs/generator-unit4-bespoke-wp-plugin/issues)
 
 ## Changelog ##
 * 1.0.0
@@ -89,6 +90,7 @@ It will be displayed the necessary code-block to be added in the Plugin to the c
 * [Edygar de Lima](https://github.com/edygar)
 * [Ricardo Castelhano](https://github.com/RicCastelhano)
 * [Rui Barbosa](https://github.com/narayon)
+* [Licínio Sousa](https://github.com/liciniofs)
 
 ## License: ##
 [GPL-2.0 or later](http://www.gnu.org/licenses/gpl-2.0.html)
